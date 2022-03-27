@@ -1,10 +1,9 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "directories": {
-    "lib": "lib"
+    "test": "test"
   },
   "scripts": {
     "test": "node ./test/sample.js",
@@ -14,6 +13,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^7.0.3"
-  }
+    "inquirer": "^7.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobReeder/Portfolio-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JacobReeder/Portfolio-Generator/issues"
+  },
+  "homepage": "https://github.com/JacobReeder/Portfolio-Generator#readme",
+  "description": ""
 }
